@@ -13,3 +13,6 @@ tags:
   - Graphics
 extra_resources:
   -
+connections:
+  - "obj-loading-tutorial"
+  - "point-lighting-tutorial"

@@ -1,3 +1,4 @@
+series: GLFW Graphics
 title: Textures
 author:
   name: IGME-RIT
@@ -5,14 +6,11 @@ author:
   github: igme-rit
 description: This program demonstrates an implementation for loading a PNG texture.
 language: C++
-image:
-  icon: https://cloud.githubusercontent.com/assets/10502938/13506660/28be0300-e14d-11e5-90e3-b194f14e52bd.PNG
-  banner: https://cloud.githubusercontent.com/assets/10502938/13506660/28be0300-e14d-11e5-90e3-b194f14e52bd.PNG
 tags:
-  - C++
   - Graphics
 extra_resources:
-  -
 connections:
-  - "obj-loading-tutorial"
-  - "point-lighting-tutorial"
+  - series: GLFW Graphics
+    title: Obj Loading
+  - series: GLFW Graphics
+    title: Point Lighting
